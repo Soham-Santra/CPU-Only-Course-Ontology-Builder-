@@ -218,3 +218,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Keep shared workspace settings tracked, but ignore other local VS Code files.
+.vscode/
+!.vscode/
+.vscode/*
+!.vscode/settings.json

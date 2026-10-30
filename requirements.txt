@@ -1,0 +1,2 @@
+# Project dependencies will be added after compatibility testing in the next
+# project phase. No application dependencies are intentionally installed yet.
