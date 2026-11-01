@@ -1,0 +1,11 @@
+{
+  "entity_types": ["Course", "Topic", "Prerequisite", "LearningOutcome", "Skill", "Department", "University"],
+  "relationships": {
+    "TEACHES": {"subject": "Course", "object": "Topic"},
+    "REQUIRES": {"subject": "Course", "object": "Prerequisite"},
+    "HAS_OUTCOME": {"subject": "Course", "object": "LearningOutcome"},
+    "DEVELOPS": {"subject": "Course", "object": "Skill"},
+    "BELONGS_TO": {"subject": "Course", "object": "Department"},
+    "OFFERED_BY": {"subject": "Course", "object": "University"}
+  }
+}

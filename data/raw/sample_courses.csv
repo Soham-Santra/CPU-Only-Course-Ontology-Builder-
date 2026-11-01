@@ -1,0 +1,2 @@
+course_id,course_name,university,department,description,source_url
+EXAMPLE-001,Introduction to Data Structures,Illustrative University,Computer Science,"This illustrative example introduces arrays, linked lists, stacks, and queues. Students develop skills in algorithmic problem solving.","https://example.invalid/courses/example-001"

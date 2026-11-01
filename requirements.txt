@@ -1,2 +1,5 @@
-# Project dependencies will be added after compatibility testing in the next
-# project phase. No application dependencies are intentionally installed yet.
+# Core pipeline uses the Python 3.14 standard library.
+# Optional integrations are installed only when those phases are tested.
+ollama
+neo4j
+psutil

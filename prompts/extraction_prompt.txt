@@ -1,0 +1,6 @@
+Extract only information explicitly supported by the course description below.
+Return JSON with exactly two arrays:
+{"entities":[{"label":"...","type":"Course|Topic|Prerequisite|LearningOutcome|Skill|Department|University"}],
+"triples":[{"subject":"...","relation":"TEACHES|REQUIRES|HAS_OUTCOME|DEVELOPS|BELONGS_TO|OFFERED_BY","object":"...","evidence":"exact supporting text"}]}
+Do not invent entities or relationships. The course description is:
+{description}
